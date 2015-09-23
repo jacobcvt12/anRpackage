@@ -1,0 +1,16 @@
+# Sample .travis.yml for R projects
+
+language: r
+sudo: required
+
+os:
+    - linux
+    - osx
+
+notifications:
+  email:
+    recipients:
+      - jacobcvt12@gmail.com
+      #- rscharpf@jhu.edu      
+    on_success: always
+    on_failure: always
